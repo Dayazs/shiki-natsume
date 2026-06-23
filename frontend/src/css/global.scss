@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'ZCoolKuaiLe';
+  src: url('../assets/fonts/ZCOOLKuaiLe-Regular.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo,
+.nav-ul li,
+.hero-title {
+  font-family: 'ZCoolKuaiLe';
+}
+
+.article-content {
+  font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
